@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blogging</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-B/GM4XqrwHnWXNOWMbloTmrYXZg10cakYGmpfsR/bbzQ6JAJI4ihuyADKLnBgrCe" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <div>
+        <nav class="navbar sm:navbar-expand bg-1 fg-2">
+            <div class="container-fluid">
+                <a class="navbar-brand logo" href="#">Blogging</a>
+                <button class="btn-icon navbar-toggler" type="button" data-bs-toggle="drawer"
+                    data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon" aria-hidden="true"></span>
+                </button>
+                <dialog class="drawer drawer-end" tabindex="-1" id="navbarNav" aria-labelledby="navbarNavLabel">
+                    <div class="drawer-header">
+                        <h5 class="drawer-title" id="navbarNavLabel">Menu</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="drawer" aria-label="Close"></button>
+                    </div>
+                    <div class="drawer-body">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="Science_and_Technology.html">Science and Technology</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="Entertainment.html">Entertainment</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="Bollywood.html">Bollywood</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="Games.html">Games</a>
+                            </li>
+                        </ul>
+                    </div>
+                </dialog>
+            </div>
+        </nav>
+
+        <div id="carouselExampleContent" class="carousel slide">
+            <div class="carousel-inner rounded-5">
+                <div class="carousel-item active">
+                    <div class="d-flex flex-column justify-content-center bg-subtle-primary p-9 bg-1 rounded-5"
+                        style="min-height: 320px;">
+                        <h3>Home</h3>
+                        <p class="fg-emphasis-secondary mb-3">Decoding the future, one breakthrough at a time. Explore
+                            the latest in AI, space exploration, gadgets, and everyday science made simple.</p>
+                        <div><a class="btn-solid theme-primary" href="#">Get started</a></div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="d-flex flex-column justify-content-center text-center bg-subtle-success p-9 bg-2 rounded-5"
+                        style="min-height: 320px;">
+                        <h3>Science and Technology</h3>
+                        <p class="fg-emphasis-secondary mb-3"> Welcome to [Blog Name], where complex science and
+                            cutting-edge technology are explained in simple, everyday language. From artificial
+                            intelligence and space exploration to gadget reviews and future trends, we bring you clear
+                            insights into the breakthroughs changing our world.</p>
+                        <div><a class="btn-solid theme-success" href="#">Learn more</a></div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="d-flex flex-column justify-content-center text-end bg-subtle-warning p-9 bg-3 rounded-5"
+                        style="min-height: 320px;">
+                        <h3>Entertainment</h3>
+                        <p class="fg-emphasis-secondary mb-3">Your Front-Row Seat to Everything Worth Watching
+                            Subheadline: Welcome to [Blog Name], your daily hub for movies, web series, music, celebrity
+                            news, and viral pop culture. From honest reviews to binge-worthy recommendations, we bring
+                            you the stories everyone is talking about.</p>
+                        <div><a class="btn-solid theme-inverse" href="#">Browse examples</a></div>
+                    </div>
+                </div>
+               <div class="carousel-item">
+                    <div class="d-flex flex-column justify-content-center text-center bg-subtle-success p-9 bg-2 rounded-5"
+                        style="min-height: 320px;">
+                        <h3>Games</h3>
+                        <p class="fg-emphasis-secondary mb-3"> Level Up Your Gaming Experience
+Subheadline: Welcome to [Blog Name], your ultimate hub for honest game reviews, walkthrough guides, esports updates, and gaming news. From AAA blockbusters to hidden indie gems and mobile hits, we cover everything that keeps you playing.</p>
+                        <div><a class="btn-solid theme-success" href="#">Learn more</a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex justify-content-center gap-2">
+                <button class="btn-icon btn-sm" type="button" data-bs-target="#carouselExampleContent"
+                    data-bs-slide="prev" style="--bs-carousel-control-icon-width: 1rem;">
+                    <span class="carousel-icon-prev" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="btn-icon btn-sm" type="button" data-bs-target="#carouselExampleContent"
+                    data-bs-slide="next" style="--bs-carousel-control-icon-width: 1rem;">
+                    <span class="carousel-icon-next" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+
+        <div class="cards">
+            <a href="" class="cardsA">
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        <img src="https://docscientia.co.za/wp-content/uploads/2025/10/Physical-Sciences.png"
+                            class="card-img" alt="...">
+                        <h5 class="mt-2 mb-0">Science and Technology</h5>
+                        <p class="card-text fg-2">Welcome to [Blog Name], where complex science and
+                            cutting-edge technology are explained in simple, everyday language. From artificial
+                            intelligence and space exploration to gadget reviews and future trends, we bring you clear
+                            insights into the breakthroughs changing our world.</p>
+                        <small class="fg-3">Last updated 3 mins ago</small>
+                    </div>
+                </div>
+            </a>
+            <a href="" class="cardsA">
+            <div class="card" style="width: 18rem;">
+                <div class="card-body">
+                    <img src="https://etimg.etb2bimg.com/thumb/msid-81478710,imgsize-285122,width-1200,height=627,overlay-etbrandequity,resizemode-75/media/how-can-the-entertainment-sector-ensure-a-full-revival-in-the-new-normal.jpg"
+                        class="card-img" alt="...">
+                    <h5 class="mt-2 mb-0">Entertainment</h5>
+                    <p class="card-text fg-2">Your Front-Row Seat to Everything Worth Watching
+                        Subheadline: Welcome to [Blog Name], your daily hub for movies, web series, music, celebrity
+                        news, and viral pop culture. From honest reviews to binge-worthy recommendations, we bring
+                        you the stories everyone is talking about.</p>
+                    <small class="fg-3">Last updated 3 mins ago</small>
+                </div>
+            </div>
+            </a>
+            <a href="" class="cardsA">
+            <div class="card" style="width: 18rem;">
+                <div class="card-body">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5xtsFPC-_R5DkeV_X3XqllC809pnEgo27mkB164h16w&s=10" class="card-img" alt="...">
+                    <h5 class="mt-2 mb-0">Bollowood</h5>
+                    <p class="card-text fg-2">Level Up Your Gaming Experience
+Subheadline: Welcome to [Blog Name], your ultimate hub for honest game reviews, walkthrough guides, esports updates, and gaming news. From AAA blockbusters to hidden indie gems and mobile hits, we cover everything that keeps you playing.</p>
+                    <small class="fg-3">Last updated 3 mins ago</small>
+                </div>
+            </div>
+            </a>
+            <a href="" class="cardsA">
+            <div class="card" style="width: 18rem;">
+                <div class="card-body">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqSWC5bF4oBzxdPkptHD4vymkOkDbaU1GiUEGOfW0MYr8pdSjo306l5ps&s=10" class="card-img" alt="...">
+                    <h5 class="mt-2 mb-0">Games</h5>
+                    <p class="card-text fg-2">Level Up Your Gaming Experience
+Subheadline: Welcome to [Blog Name], your ultimate hub for honest game reviews, walkthrough guides, esports updates, and gaming news. From AAA blockbusters to hidden indie gems and mobile hits, we cover everything that keeps you playing.
+</p>
+                    <small class="fg-3">Last updated 3 mins ago</small>
+                </div>
+            </div>
+            </a>
+
+        </div>
+    </div>
+    <script type="module" src="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-1a/pXj49ZQ1aHEmrJ+gMw1otqoVsYwlEnlD8mIfY2TV03r20Y0CN7uqx1tQogjPL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
